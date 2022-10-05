@@ -159,6 +159,7 @@ form > input {
 
 .cards {
   display: flex;
+
   flex-wrap: wrap;
   row-gap: 50px;
   justify-content: space-around;
@@ -183,9 +184,15 @@ form > input {
 }
 
 .card > ul {
-  padding: 20px 0px;
+    list-style:inside;
+    padding: 20px 0px;
 }
 .card > ul > li {
   color: rgb(69, 19, 176);
-  text-align: center;
+  padding-left: 10px;
+  list-style:inside;
+}
+
+.card > ul > li > span{
+    margin-left: 120px;
 }
