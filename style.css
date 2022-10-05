@@ -190,7 +190,6 @@ form > input {
 .card > ul > li {
   color: rgb(69, 19, 176);
   padding-left: 10px;
-  list-style:inside;
 }
 
 .card > ul > li > span{
